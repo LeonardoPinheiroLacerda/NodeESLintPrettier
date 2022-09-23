@@ -2,10 +2,11 @@
   "name": "nodeeslintprettier",
   "version": "1.0.0",
   "description": "~~~ sh npm init -y npm install --save-dev typescript eslint nodemon ts-node prettier eslint-config-prettier eslint-plugin-prettier ~~~",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+		"start": "nodemon",
+		"build": "tsc"
+	},
   "keywords": [],
   "author": "",
   "license": "ISC",
